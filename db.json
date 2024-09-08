@@ -1,0 +1,42 @@
+{
+  "login": [
+    {
+      "email": "patysiq@yahoo.com.br",
+      "password": "Abs123",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "email": "patysiq1@yahoo.com.br",
+      "password": "Abc1231"
+    },
+    {
+      "id": "3",
+      "email": "patysiq1@yahoo.com.br",
+      "password": "Abc1231"
+    },
+    {
+      "id": "4",
+      "email": "patysiq1@yahoo.com.br",
+      "password": "Abc1231"
+    },
+    {
+      "id": "5",
+      "email": "patysiq1@yahoo.com.br",
+      "password": "Abc1231"
+    },
+    {
+      "id": "6",
+      "email": "patysiq1@yahoo.com.br",
+      "password": "Abc1231"
+    }
+  ],
+  "singUp": [
+    {
+      "username": "Paty",
+      "email": "patysiq@yahoo.com.br",
+      "password": "Abs123",
+      "id": "1"
+    }
+  ]
+}

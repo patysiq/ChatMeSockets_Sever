@@ -1,7 +1,8 @@
 
 var express = require('express');
 var app = express();
-var server = require('http').Server(app);
+var server = require('http').Server(app)
+
 const io = require("socket.io")({
     allowEIO3: true // false by default
   }).listen(server)
@@ -12,6 +13,21 @@ var typingUsers = {};
 app.get('/' , (req , res)=>{
 
    res.send('<h1>ChatMe SocketIO server is up and running</h1>')
+
+});
+
+app.get('/login' , (req , res)=>{
+    res.header("Content-Type",'application/json');
+    res.send(JSON.stringify(data));
+ 
+ });
+
+ app.get('/singUp' , (req , res)=>{
+    res.header("Content-Type",'application/json');
+    res.send(JSON.stringify(data));
+ });
+
+app.post('/', (req, res)=>{
 
 });
 
@@ -121,6 +137,6 @@ io.on('connection', function(clientSocket) {
 
 });
 
-server.listen(3000, function() {
-    console.log('Listening on: 3000');
+server.listen(3001, function() {
+    console.log('Listening on: 3001');
 });
